@@ -1,0 +1,94 @@
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-item {
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .product-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+
+  /* Стили для заголовка и кнопок */
+h2 {
+  text-align: center; /* Заголовок по центру */
+  margin-bottom: 20px;
+}
+
+.show-more {
+  background-color: #007bff; /* Синий цвет */
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto; /* Центрирование кнопки */
+  width: 200px; /* Ширина кнопки */
+}
+
+.order-button {
+  background-color: #4CAF50; /* Зеленый цвет */
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
